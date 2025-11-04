@@ -1,0 +1,21 @@
+# WiFiSniper Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+colorama>=0.4.4          # Colored terminal output
+prettytable>=3.0.0       # Formatted table display
+pyfiglet>=0.8.post1      # ASCII art generation
+rich>=10.0.0             # Enhanced terminal output
+
+# Network and packet manipulation
+scapy>=2.4.5             # Packet crafting and manipulation
+pyshark>=0.4.3           # Wireshark-like packet capture
+
+# Optional dependencies (install as needed)
+# matplotlib>=3.0.0      # For signal strength graphs
+# bluetooth>=0.1         # For Bluetooth functionality (if available)
+
+# Development dependencies (not required for end users)
+# pytest>=6.0.0          # For testing
+# black>=21.0.0         # Code formatting
+# flake8>=3.9.0          # Linting
